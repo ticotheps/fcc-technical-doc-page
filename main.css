@@ -1,8 +1,9 @@
 /* CSS for most smart phone screens (in portrait mode; i.e. - iPhone X, iPhone 6/7/8 + Plus, Galaxy S5, Pixel 2, Pixel 2 XL, etc.); with screen widths of 320px - 480px */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) {
 
   * {
     box-sizing: border-box;
+    background-color: white;
   }
 
   .flex-container {
@@ -20,27 +21,111 @@
   }
 
   body {
-
+    border: solid black 3px;
+    margin: 15px;
+    padding: 15px;
+    background-color: beige;
   }
 
-  header {
-
+  #body-nav {
+    border: solid blue 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    background-color: grey;
   }
 
-  h1 {
-    color: red;
+  #nav-list {
+    border: solid black 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+  }
+
+  .nav-link {
+    color: white;
+    font-size: 20px;
+    border: solid black 2px;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    background-color: purple;
+    list-style-type: none;
+    text-align: center;
   }
 
   #main-doc {
-
+    border: solid blue 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
   }
 
-  section {
-
+  #main-header {
+    border: solid black 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    background-color: grey;
   }
 
-  footer {
+  .main-section {
+    border: solid green 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    background-color: grey;
+  }
 
+  .section-header {
+    border: solid red 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+  }
+
+  #main-footer {
+    border: solid green 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    background-color: grey;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: white;
+    background-color: red;
+    border: solid black 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 32px;
+    color: red;
+    background-color: lightgrey;
+    border: solid black 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 30px;
+    color: red;
+    background-color: lightgrey;
+    border: solid black 3px;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
   }
 
 }
@@ -48,10 +133,11 @@
 
 
 /* CSS for: most smart phone screens (in landscape mode; i.e. - iPhone 5/SE, iPhone 6/7/8 + Plus, Galaxy S5, Pixel 2, etc.) and low resolution tablet screens; with screen widths of 481px - 767px */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) {
 
   h1 {
-    color: orange;
+    color: white;
+    background-color: orange;
   }
 
 }
@@ -59,10 +145,11 @@
 
 
 /* CSS for: most standard tablet screens (in portrait/landscape mode), standard iPad screens (in portrait/landscape mode), iPad Pro screens (in portrait mode), and iPhone X/Pixel 2 XL screens (in landscape mode); with screen widths of 768px - 1024px */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
 
   h1 {
-    color: yellow;
+    color: white;
+    background-color: yellow;
   }
 
 }
@@ -70,10 +157,11 @@
 
 
 /* CSS for: most standard laptop screens and standard desktop screens; with screen widths of 1025px - 1280px */
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) {
 
   h1 {
-    color: green;
+    color: white;
+    background-color: green;
   }
 
 }
@@ -84,7 +172,8 @@
 @media (min-width: 1281px) {
 
   h1 {
-    color: blue;
+    color: white;
+    background-color: blue;
   }
 
 }
