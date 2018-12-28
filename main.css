@@ -1,3 +1,90 @@
-* {
-  box-sizing: border-box;
+/* CSS for most smart phone devices in portrait mode (i.e. - iPhone X, iPhone 6/7/8 Plus, Samsung Galaxy S5, Google Pixel, etc.) with screen widths of 320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .flex-container {
+    display: flex;
+  }
+
+  .flex-row {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .flex-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body {
+
+  }
+
+  header {
+
+  }
+
+  h1 {
+    color: red;
+  }
+
+  #main-doc {
+
+  }
+
+  section {
+
+  }
+
+  footer {
+
+  }
+
+}
+
+
+
+/* CSS for most smart phone devices in landscape mode (i.e. - iPhone X, iPhone 6/7/8 Plus, Samsung Galaxy S5, Google Pixel, etc.) or low resolution tablets with screen widths of 481px - 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+
+  h1 {
+    color: orange;
+  }
+
+}
+
+
+
+/* CSS for most standard tablets and standard iPads in landscape mode or iPad Pros in portrait mode with screen widths of 768px - 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  h1 {
+    color: yellow;
+  }
+
+}
+
+
+
+/* CSS for most standard laptops and desktops with screen widths of 1025px - 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  h1 {
+    color: green;
+  }
+
+}
+
+
+
+/* CSS for high resolution desktop screens with widths of >1281px */
+@media (min-width: 1281px) {
+
+  h1 {
+    color: blue;
+  }
+
 }
