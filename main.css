@@ -21,110 +21,99 @@
   }
 
   body {
-    border: solid black 3px;
     margin: 15px;
+    border: solid black 3px;
     padding: 15px;
     background-color: beige;
   }
 
   #body-nav {
-    border: solid blue 3px;
     width: 100%;
     margin: 15px;
+    border: solid blue 3px;
     padding: 15px;
     background-color: grey;
   }
 
   #nav-list {
-    border: solid black 3px;
     width: 100%;
     margin: 15px;
+    border: solid black 3px;
     padding: 15px;
     background-color: white;
   }
 
-  .nav-link {
-    color: white;
-    font-size: 20px;
-    border: solid black 2px;
+  .nav-item {
     width: 100%;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    border: solid black 3px;
+    padding: 0px;
     background-color: purple;
     list-style-type: none;
     text-align: center;
   }
 
+  .nav-link {
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+    background-color: purple;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+  }
+
   #main-doc {
-    border: solid blue 3px;
     width: 100%;
     margin: 15px;
+    border: solid blue 3px;
     padding: 15px;
     background-color: white;
   }
 
   #main-header {
-    border: solid black 3px;
     width: 100%;
     margin: 15px;
+    border: solid black 3px;
     padding: 15px;
     background-color: grey;
   }
 
   .main-section {
-    border: solid green 3px;
     width: 100%;
     margin: 15px;
+    border: solid green 3px;
     padding: 15px;
     background-color: grey;
   }
 
   .section-header {
-    border: solid red 3px;
     width: 100%;
     margin: 15px;
+    border: solid red 3px;
     padding: 15px;
     background-color: white;
   }
 
-  #main-footer {
-    border: solid green 3px;
+  h1 {
     width: 100%;
     margin: 15px;
+    border: solid black 3px;
     padding: 15px;
-    background-color: grey;
-  }
-
-  h1 {
+    background-color: red;
     font-size: 40px;
     color: white;
-    background-color: red;
-    border: solid black 3px;
-    width: 100%;
-    margin: 15px;
-    padding: 15px;
     text-align: center;
   }
 
   h2 {
+    width: 100%;
+    margin: 15px;
+    border: solid black 3px;
+    padding: 15px;
+    background-color: lightgrey;
     font-size: 32px;
     color: red;
-    background-color: lightgrey;
-    border: solid black 3px;
-    width: 100%;
-    margin: 15px;
-    padding: 15px;
-    text-align: center;
-  }
-
-  h3 {
-    font-size: 30px;
-    color: red;
-    background-color: lightgrey;
-    border: solid black 3px;
-    width: 100%;
-    margin: 15px;
-    padding: 15px;
     text-align: center;
   }
 
