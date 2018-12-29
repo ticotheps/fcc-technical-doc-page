@@ -28,13 +28,22 @@
     background-color: beige;
   }
 
-  #body-nav {
+  #nav-bar {
     width: 100%;
     margin: 15px;
     border: solid blue 5px;
     border-radius: 5px;
     padding: 15px;
     background-color: grey;
+  }
+
+  #nav-header {
+    width: 100%;
+    margin: 15px;
+    border: solid black 5px;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: white;
   }
 
   #nav-list {
@@ -80,15 +89,6 @@
     border: solid blue 5px;
     border-radius: 5px;
     padding: 15px;
-    background-color: white;
-  }
-
-  #main-header {
-    width: 100%;
-    margin: 15px;
-    border: solid black 5px;
-    border-radius: 5px;
-    padding: 15px;
     background-color: grey;
   }
 
@@ -98,7 +98,7 @@
     border: solid green 5px;
     border-radius: 5px;
     padding: 15px;
-    background-color: grey;
+    background-color: white;
   }
 
   .section-header {
@@ -113,10 +113,19 @@
   article {
     width: 100%;
     margin: 10px;
-    border: solid black 3px;
+    border: solid black 5px;
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
     background-color: beige;
+  }
+
+  footer {
+    width: 100%;
+    margin: 15px;
+    border: solid green 5px;
+    border-radius: 5px;
+    padding: 0px;
+    background-color: white;
   }
 
   h1 {
@@ -139,6 +148,17 @@
     padding: 15px;
     background-color: lightgrey;
     font-size: 32px;
+    color: red;
+    text-align: center;
+  }
+
+  h3 {
+    width: 100%;
+    margin: 0px;
+    border: none;
+    padding: 5px;
+    background-color: lightgrey;
+    font-size: 25px;
     color: red;
     text-align: center;
   }
