@@ -166,12 +166,12 @@
 
   p, .bullet-point-list, .bullet-point-item, code {
     width: 100%;
-    margin: 10px;
+    margin: 5px;
     border: none;
     border-radius: 3px;
     padding: 10px 15px 10px 15px;
     background-color: white;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   code {
@@ -179,11 +179,11 @@
   }
 
   .bullet-point-list {
-    padding: 5px 10px 5px 30px;
+    padding: 5px 5px 5px 25px;
   }
 
   .bullet-point-item {
-    padding: 5px 10px 10px 5px;
+    padding: 5px 10px 10px 0px;
   }
 
 }
