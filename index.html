@@ -153,14 +153,23 @@
           <h2>Constants</h2>
         </header>
         <article class="flex-container flex-column">
-          <p>Text here.</p>
-          <code>Code here.</code>
-          <p>Text here.</p>
-          <p>Text here.</p>
-          <p>Text here.</p>
-          <code>Code here.</code>
-          <p>Text here.</p>
-          <code>Code here.</code>
+          <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
+          <code>const PI = 3.14;</code>
+          <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.</p>
+          <p>The scope rules for constants are the same as those for let block scope variables. If the const keyword is omitted, the identifier is assumed to represent a variable.</p>
+          <p>You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
+          <code>// THIS WILL CAUSE AN ERROR
+              function f() {};
+              const f = 5;
+              // THIS WILL CAUSE AN ERROR ALSO
+              function f() {
+                const g = 5;
+                var g;
+                //statements
+              }</code>
+          <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
+          <code>const MY_OBJECT = {"key": "value"};
+              MY_OBJECT.key = "otherValue";</code>
         </article>
       </section>
 
@@ -169,21 +178,21 @@
           <h2>Data Types</h2>
         </header>
         <article class="flex-container flex-column">
-          <p>Text here.</p>
+          <p>The latest ECMAScript standard defines seven data types:</p>
           <ul class="bullet-point-list">
-            <li class="bullet-point-item">Bullet point here.
+            <li class="bullet-point-item">Six data types that are primitives:</li>
               <ul class="bullet-point-list">
-                <li class="bullet-point-item">Bullet point here.</li>
-                <li class="bullet-point-item">Bullet point here.</li>
-                <li class="bullet-point-item">Bullet point here.</li>
-                <li class="bullet-point-item">Bullet point here.</li>
-                <li class="bullet-point-item">Bullet point here.</li>
-                <li class="bullet-point-item">Bullet point here.</li>
+                <li class="bullet-point-item">Boolean. true and false.</li>
+                <li class="bullet-point-item">null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+                <li class="bullet-point-item">undefined. A top-level property whose value is undefined.</li>
+                <li class="bullet-point-item">Number. 42 or 3.14159.</li>
+                <li class="bullet-point-item">String. "Howdy"</li>
+                <li class="bullet-point-item">Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
               </ul>
             </li>
-            <li class="bullet-point-item">Bullet point here.</li>
+            <li class="bullet-point-item">and Object</li>
           </ul>
-          <p>Text here.</p>
+          <p>Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.</p>
         </article>
       </section>
 
